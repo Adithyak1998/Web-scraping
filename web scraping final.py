@@ -169,7 +169,7 @@ ketu_final=['Ketu']
 ketu_final.extend(ketu)
 
 print(soup.title.text[:36])
-print('Asc: ')
+#print('Asc: ')
 print(*asc_final, sep = ", ")
 '''
 print('Sun: ')
