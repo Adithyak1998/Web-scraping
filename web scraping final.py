@@ -171,6 +171,7 @@ ketu_final.extend(ketu)
 print(soup.title.text[:36])
 print('Asc: ')
 print(*asc_final, sep = ", ")
+'''
 print('Sun: ')
 print(*sun_final, sep = ", ")
 print('Moon: ')
@@ -190,6 +191,7 @@ print(*rahu_final, sep = ", ")
 print('Ketu: ')
 print(*ketu_final, sep = ", ")
 
+
 with open(soup.title.text[:10]+'.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['Planet','Angle less than 30','Zodiac','Total angle','Residing in','Nakshatra','Nakshtra lord'])
@@ -203,3 +205,4 @@ with open(soup.title.text[:10]+'.csv', 'w', newline='') as file:
     writer.writerow(saturn_final)
     writer.writerow(rahu_final)
     writer.writerow(ketu_final)
+'''
