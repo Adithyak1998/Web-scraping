@@ -21,7 +21,7 @@ URL="https://www.drikpanchang.com/planet/position/planetary-positions-sidereal.h
 #URL = "https://www.drikpanchang.com/planet/position/planetary-positions-sidereal.html?date=24/01/2020&time=09:15:00"
 r = requests.get(URL) 
   
-soup = BeautifulSoup(r.content, 'html5lib') 
+soup = BeautifulSoup(r.content, 'html.parser') 
 data=soup.prettify()
 t=soup.find_all('span')
 
