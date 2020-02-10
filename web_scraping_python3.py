@@ -190,6 +190,35 @@ print('Rahu: ')
 print(*rahu_final, sep = ", ")
 print('Ketu: ')
 print(*ketu_final, sep = ", ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("Hello" * 10)
+
+
+
+
+
+
+
+
+
+
+
 '''
 
 with open(soup.title.text[:10]+'.csv', 'w', newline='') as file:
