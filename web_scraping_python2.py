@@ -177,3 +177,16 @@ print('Rahu: ')
 print(rahu_final)
 print('Ketu: ')
 print(ketu_final)
+
+
+
+
+
+
+
+
+
+
+
+
+print("Hello " * 10)
