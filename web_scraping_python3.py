@@ -207,7 +207,7 @@ print(*ketu_final, sep = ", ")
 
 
 
-print("Hello" * 10)
+print("Hello " * 10)
 
 
 
